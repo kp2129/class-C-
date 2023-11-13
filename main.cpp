@@ -38,7 +38,7 @@ int main() {
     car1.makeNoise();
     cout << "\n";
 
-    Car* car2 = new Car("Tesla", 12.2);
+    Car* car2 = new Car("BMW", 320346);
     cout << car2->brand << " \n";
     cout << car2->getMileage() << " km \n";
     car2->makeNoise();
